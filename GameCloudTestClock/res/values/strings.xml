@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Common Dialogs -->
+    <string name="s_alert">warning</string>
+    <string name="s_no_int_message">We have no connection to the Internet at this moment…</string>
+    <string name="s_exit">exit</string>
+    <string name="s_wifi_settings">wi-fi Settings</string>
+
+    <string name="s_alert_dialog_messege">There is something wrong…</string>
+    <string name="s_button_confirm">try again</string>
+    <string name="s_button_back">back</string>
+    <string name="s_button_ignore">ignore</string>
+
+
+    <string name="app_name">TikTok</string>
+    <string name="app_welcome">From GameCloud with Lov3</string>
+    <string name="small_gc_logo">game cloud simple logo</string>
+
+    <string name="menu_settings">Settings</string>
+
+
+    <!-- Login Screen -->
+    <string name="s_username_hint">username</string>
+    <string name="s_passphrase_hint">passprase</string>
+    <string name="s_login">Login</string>
+    <string name="s_facebook_login_label">Or, login with facebook,</string>
+    <string name="s_sign_in_facebook">Sign in with Facebook</string>
+    <string name="s_no_passphrase_error">Passphrase cannot be empty</string>
+    <string name="s_wrong_passphrase_error">Passphrase is incorrect</string>
+    <string name="s_no_email_error">Email cannot be empty</string>
+    <string name="s_wrong_email_error">Email is incorrect</string>
+    <string name="s_sending">Checking credentials</string>
+    <string name="s_success">Success</string>
+
+    <!-- ListOfSave Games -->
+    <string name="s_save_games_labels">Select the game to Load</string>
+    <string name="imageview_content_description">Screenshot of a saved game status.</string>
+    <string name="current_time">Current time:</string>
+    <string name="take_snapshot">Take Snapshot</string>
+
+</resources>

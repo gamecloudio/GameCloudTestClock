@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="17dp">
+
+    <LinearLayout
+            android:id="@+id/ll_user_credentials"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+        <EditText
+                android:id="@+id/et_user_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/s_username_hint"
+                android:inputType="textEmailAddress"
+                android:singleLine="true"/>
+
+        <EditText
+                android:id="@+id/et_user_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/s_passphrase_hint"
+                android:inputType="textPassword"
+                android:singleLine="true"/>
+
+        <Button android:id="@+id/but_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/s_login"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:layout_marginTop="13dp"
+                android:text="@string/s_facebook_login_label"
+                android:paddingLeft="4dp"/>
+
+        <Button android:id="@+id/but_facebook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/s_sign_in_facebook"
+                />
+    </LinearLayout>
+
+</RelativeLayout>
